@@ -1,0 +1,89 @@
+body
+{
+    background-color: cyan;
+}
+.heading
+{
+    text-align: center;
+    color:red;
+}
+.number
+{
+    list-style-type:decimal ;
+    position: relative;
+    left: 40%;
+    margin-top: 100px;
+}
+.box20
+{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+.box13
+{
+    background-color: black;
+    transition: width 2s;
+}
+.box13:hover{
+    width: 300px;
+}
+.box14
+{
+    background-color: black;
+    transition: height 5s , width 5s;
+}
+.box14:hover{
+    height: 300px;
+    width: 300px;
+}
+.box15
+{
+    background-color: black;
+    transition: width 2s linear;
+}
+.box15:hover{
+    width: 300px;
+}
+.box16{
+    background-color: black;
+    transition: width 2s ease;
+}
+.box16:hover{
+    width: 300px;
+}
+.box17{
+    background-color: black;
+    transition: width 2s ease-in;
+}
+.box17:hover{
+    width: 300px;
+}
+.box18{
+    background-color: black;
+    transition: width 2s ease-out;
+}
+.box18:hover{
+    width: 300px;
+}
+.box19
+{
+    background-color: black;
+    transition: width 2s ease-in-out;
+}
+.box19:hover{
+    width: 300px;
+}
+.link1
+{
+    color: blue;
+    text-align: center;
+}
+.link2
+{
+    color: blue;
+    text-align: center;
+}

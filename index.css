@@ -1,0 +1,177 @@
+body
+{
+    background-color: yellow;
+}
+.heading
+{
+    color: red;
+    text-align: center;
+}
+.number
+{
+    list-style-type: decimal;
+    position: relative;
+    left: 32%;
+    margin-top: 100px;
+}
+.box
+{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+.box1
+{
+    background-color: chocolate;
+    animation-name:one;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes one{
+    100%{
+        transform:skewX(20deg);
+    }
+}
+.box2
+{
+    background-color: chocolate;
+    animation-name: two;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes two {
+    100%{
+        transform: skewX(20deg);
+    }
+}
+.box3
+{
+    background-color: chocolate;
+    animation-name: three;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes three {
+    100%{
+        transform: skewX(20deg);
+    }
+}
+.box4
+{
+    background-color: greenyellow;
+    animation-name: four;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes four {
+    100%{
+        transform: skewY(25deg);
+    }
+}
+.box5
+{
+    background-color: greenyellow;
+    animation-name: five;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes five {
+    100%{
+        transform: skewY(25deg);
+    }
+}
+.box6
+{
+    background-color: greenyellow;
+    animation-name: six;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes six {
+    100%{
+        transform: skewY(25deg);
+    }
+}
+.box7
+{
+    background-color: orange;
+    animation-name: seven;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes seven {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.box8
+{
+    background-color: orange;
+    animation-name: eight;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes eight {
+    100% {
+        transform:rotate(360deg);
+    }
+}
+.box9
+{
+    background-color: orange;
+    animation-name: nine;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes nine {
+    100% {
+        transform:rotate(360deg);
+    }
+}
+.box10
+{
+    background-color: blue;
+    animation-name: ten;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes ten {
+    100%{
+        transform: rotateX(-50deg);
+    }
+}
+.box11
+{
+    background-color: burlywood;
+    animation-name: eleven;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes eleven {
+    100%{
+        transform: rotateY(-40deg);
+    }
+}
+.box12
+{
+    background-color: blue;
+    animation-name: twelve;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes twelve {
+    100%{
+         transform: rotate(-120deg);
+    }
+}
+.link
+{
+    text-align: center;
+    font-size: 20px;
+    color: crimson;
+    text-decoration-line: none;
+}
